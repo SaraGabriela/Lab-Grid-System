@@ -1,6 +1,6 @@
- *{
+ /**{
 	outline:1px solid rgba(255,0,0,0.3);
-} 
+} */
 img{max-width: 100%;}
 body{font-family: Helvetica;}
 .head{
@@ -23,13 +23,17 @@ body{font-family: Helvetica;}
 .contiene-latest{text-align: center; }
 .contiene-latest div{display: inline-block; width: 20%; margin-right: 30px; }
 .contiene-latest div:last-child{margin-right: 0px;}
-.contiene-latest div img{border:3px solid #fff;}
+.contiene-latest div img{border:3px solid #fff;  outline: 0.5px solid #cccccc;}
 .contiene-latest div h3 {margin-top: 3px;}
 hr {height: 3px; background-color: #BBBBBB; border: none;}
 /*Termina latest*/
-.shows{ margin-top: 30px; }
-.shows ul li div{max-width: 98px; margin-right: 20px;}
-.shows ul li{display: inline-block;}
-
-
-
+.shows{ margin-top: 30px; text-align: center; font-size: 13px;}
+.shows ul li div{max-width: 98px;}
+.shows ul li{display: inline-block; margin-right: 20px;margin-top: 20px; vertical-align: top;}
+.shows ul li img {border: 3px solid #fff; outline: 0.5px solid #cccccc;}
+/*Termina shows*/
+.derecha span {color:#000;}
+.derecha {margin-top: 70px;}
+.lista-mayor > li{margin-bottom: 30px;}
+.lista-mayor h4{color:#333333; border-bottom: 3px solid #EEEEEE; width: 300px; padding-bottom: 5px; margin-bottom: 20px;}
+.lista-mayor img{width: 15px; margin-right: 10px;}
