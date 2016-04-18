@@ -37,3 +37,10 @@ hr {height: 3px; background-color: #BBBBBB; border: none;}
 .lista-mayor > li{margin-bottom: 30px;}
 .lista-mayor h4{color:#333333; border-bottom: 3px solid #EEEEEE; width: 300px; padding-bottom: 5px; margin-bottom: 20px;}
 .lista-mayor img{width: 15px; margin-right: 10px;}
+/*Termina nav derecha*/
+.pie{background-color: #585858; color:#fff; margin-top: 20px; padding: 20px;}
+.pie :first-child{line-height: 30px;}
+.pie a{color:#CCCCC3; text-decoration: none;}
+.pie ul{margin-top: 20px; font-size: 14px; text-align: center;}
+.pie ul li{display: inline-block; color:#CCCCC0; margin-right: 10px;}
+.pie p:last-child{color:#999999; font-size: 12px; text-align: center; margin-top: 20px;}
